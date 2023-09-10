@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "urbanuniques"
+version = "0.1.0"
+description = "this is a clothing web application"
+authors = ["nidhi-2619 <91557785+nidhi-2619@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.7"
+Django = "^4.2.5"
+sqlparse = "^0.4.4"
+tzdata = "^2023.3"
+asgiref = "^3.7.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
